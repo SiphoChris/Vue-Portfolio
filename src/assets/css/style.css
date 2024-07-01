@@ -64,3 +64,11 @@ button.cta {
 main{
     display: grid;
 }
+
+/* footer */
+
+footer{
+  padding: 36px 0;
+  color: var(--light-text);
+  background-color: var(--primary);
+}
