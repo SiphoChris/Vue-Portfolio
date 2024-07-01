@@ -58,3 +58,9 @@ button.cta {
   object-position: center;
   border-radius: 50%;
 }
+
+/* main section */
+
+main{
+    display: grid;
+}
