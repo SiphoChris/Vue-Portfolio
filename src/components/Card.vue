@@ -2,7 +2,7 @@
   <div class="custom-card">
     <div class="cardImage">
       <slot name="cardImage">
-        <img
+        <img class="card-image"
           src="https://siphochris.github.io/images/images/portfolio_images/profile.jpg"
         />
       </slot>
