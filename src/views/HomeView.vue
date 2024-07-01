@@ -4,22 +4,25 @@
       <Nav />
       <HeroSection />
     </header>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Nav from "@/components/Nav.vue";
 import HeroSection from '@/components/HeroSection.vue'
-import MainSection from '@/components/MainSection.vue'
-import Card from '@/components/Card.vue'
+// import Card from '@/components/Card.vue'
+import Footer from "@/components/Footer.vue";
+
 
 export default {
   name: "HomeView",
   components: {
     Nav,
     HeroSection,
-    MainSection,
-    Card
+    // MainSection,
+    // Card,
+    Footer
   },
 };
 </script>
