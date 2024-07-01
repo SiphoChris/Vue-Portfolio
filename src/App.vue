@@ -1,7 +1,5 @@
 <template>
-  <div class="wrapper">
     <HomeView />
-  </div>
 </template>
 
 <script>
