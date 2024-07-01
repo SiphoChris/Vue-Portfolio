@@ -1,3 +1,11 @@
+:root{
+    --primary: #023047;
+    --secondary: #8ECAE6;
+    --accent: #FB8500;
+    --light-text: #EEE6E8;
+    --dark-text: #0E0D0F;
+}
+
 #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -6,15 +14,22 @@
     color: #2c3e50;
   }
   
-  nav {
-    padding: 30px;
-  }
-  
-  nav a {
+  .logo{
     font-weight: bold;
-    color: #2c3e50;
   }
-  
-  nav a.router-link-exact-active {
-    color: #42b983;
+  nav {
+    padding: 16px 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  button.cta {
+    width: fit-content;
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: var(--dark-text);
+    background-color: var(--accent);
+    border: none;
+    font-weight: bold;
   }
