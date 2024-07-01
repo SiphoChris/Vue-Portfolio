@@ -10,12 +10,16 @@
 <script>
 import Nav from "@/components/Nav.vue";
 import HeroSection from '@/components/HeroSection.vue'
+import MainSection from '@/components/MainSection.vue'
+import Card from '@/components/Card.vue'
 
 export default {
   name: "HomeView",
   components: {
     Nav,
-    HeroSection
+    HeroSection,
+    MainSection,
+    Card
   },
 };
 </script>
