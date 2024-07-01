@@ -1,16 +1,21 @@
 <template>
   <div class="home">
-    <Nav />
+    <header>
+      <Nav />
+      <HeroSection />
+    </header>
   </div>
 </template>
 
 <script>
-import Nav from '@/components/Nav.vue'
+import Nav from "@/components/Nav.vue";
+import HeroSection from '@/components/HeroSection.vue'
 
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   components: {
-    Nav
-  }
-}
+    Nav,
+    HeroSection
+  },
+};
 </script>
